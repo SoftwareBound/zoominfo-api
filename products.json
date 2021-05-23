@@ -1,0 +1,122 @@
+[
+  {
+    "productID": "1",
+    "productName": "Key",
+    "productDescription": "Key use is to lock and unlock all kinds of locks",
+    "productImageUrl": "https://www.randomlists.com/img/things/keys.webp"
+  },
+  {
+    "productID": "2",
+    "productName": "Watch",
+    "productDescription": "Instrument to display time",
+    "productImageUrl": "https://www.randomlists.com/img/things/watch.webp"
+  },
+  {
+    "productID": "3",
+    "productName": "Sun Glasses",
+    "productDescription": "Keep your eyes safe from the sun",
+    "productImageUrl": "https://www.randomlists.com/img/things/sun_glasses.webp"
+  },
+  {
+    "productID": "4",
+    "productName": "Deck of Cards",
+    "productDescription": "Key use is to lock and unlock all kinds of locks",
+    "productImageUrl": "https://www.randomlists.com/img/things/playing_card.webp"
+  },
+  {
+    "productID": "5",
+    "productName": "Paint Brush",
+    "productDescription": "The soloution for painting on stuff",
+    "productImageUrl": "https://www.randomlists.com/img/things/paint_brush.webp"
+  },
+  {
+    "productID": "6",
+    "productName": "Monitor",
+    "productDescription": "A way to view",
+    "productImageUrl": "https://www.randomlists.com/img/things/monitor.webp"
+  },
+  {
+    "productID": "7",
+    "productName": "American Cup",
+    "productDescription": "Must to have in home parties",
+    "productImageUrl": "https://www.randomlists.com/img/things/cup.webp"
+  },
+  {
+    "productID": "8",
+    "productName": "iPod",
+    "productDescription": "Another great product from Apple ",
+    "productImageUrl": "https://www.randomlists.com/img/things/ipod.webp"
+  },
+  {
+    "productID": "9",
+    "productName": "Desk",
+    "productDescription": "Wooden furniture made to put stuff on",
+    "productImageUrl": "https://www.randomlists.com/img/things/desk.webp"
+  },
+  {
+    "productID": "10",
+    "productName": "Thermometer",
+    "productDescription": "When you need to check own body temperature",
+    "productImageUrl": "https://www.randomlists.com/img/things/thermometer.webp"
+  },
+  {
+    "productID": "11",
+    "productName": "wallet",
+    "productDescription": "Money & stuff holder",
+    "productImageUrl": "https://www.randomlists.com/img/things/wallet.webp"
+  },
+  {
+    "productID": "12",
+    "productName": "Book",
+    "productDescription": "Obsolete media to consume information",
+    "productImageUrl": "https://www.randomlists.com/img/things/book.webp"
+  },
+  {
+    "productID": "13",
+    "productName": "Pencil",
+    "productDescription": "Ancient instrument for writing",
+    "productImageUrl": "https://www.randomlists.com/img/things/pencil.webp"
+  },
+  {
+    "productID": "14",
+    "productName": "Water Bottle",
+    "productDescription": "Bottle filled with water",
+    "productImageUrl": "https://www.randomlists.com/img/things/water_bottle.webp"
+  },
+  {
+    "productID": "15",
+    "productName": "Toothbrush",
+    "productDescription": "Best way to protect your teeth",
+    "productImageUrl": "https://www.randomlists.com/img/things/toothbrush.webp"
+  },
+  {
+    "productID": "16",
+    "productName": "Bed",
+    "productDescription": "The only thing you want when you are tired",
+    "productImageUrl": "https://www.randomlists.com/img/things/bed.webp"
+  },
+  {
+    "productID": "17",
+    "productName": "Food",
+    "productDescription": "The best thing in the world",
+    "productImageUrl": "https://www.randomlists.com/img/things/food.webp"
+  },
+  {
+    "productID": "18",
+    "productName": "Perfume",
+    "productDescription": "When you feeling like french",
+    "productImageUrl": "https://www.randomlists.com/img/things/perfume.webp"
+  },
+  {
+    "productID": "19",
+    "productName": "Headphones",
+    "productDescription": "If you want to keep your sounds to yourselves",
+    "productImageUrl": "https://www.randomlists.com/img/things/headphones.webp"
+  },
+  {
+    "productID": "20",
+    "productName": "Pen",
+    "productDescription": "Modern instrument for writing",
+    "productImageUrl": "https://www.randomlists.com/img/things/pen.webp"
+  }
+]
