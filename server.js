@@ -3,16 +3,34 @@ const cors = require("cors");
 const express = require("express");
 const app = express();
 const { filterResults } = require("./productFunctions");
+const _ = require("loadsh");
 
 app.use(cors());
 app.get("/", (req, res) => {
-  res.send(data.slice(req.query.offset, req.query.limit));
+  const toSend = data.slice(
+    req.query.offset,
+    _.add(_.toNumber(req.query.limit), _.toNumber(req.query.offset))
+  );
+  toSend.length ? toSend : null;
+  res.send(toSend);
 });
 app.get("/:value", (req, res) => {
-  console.log(filterResults(req.params.value));
+  const filterd = filterResults(req.params.value);
 
-  res.send(filterResults(req.params.value));
+  const toSend =
+    filterd.length > 10
+      ? filterd.slice(
+          req.query.offset,
+          _.add(_.toNumber(req.query.limit), _.toNumber(req.query.offset))
+        )
+      : filterd.slice(
+          req.query.offset,
+          _.add(_.toNumber(filterd.length), _.toNumber(req.query.offset))
+        );
+
+  res.send(toSend);
 });
+
 app.listen(4000, (err) => {
   if (err) {
     console.log("there was a problem", err);
