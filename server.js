@@ -12,6 +12,7 @@ app.get("/", (req, res) => {
     _.add(_.toNumber(req.query.limit), _.toNumber(req.query.offset))
   );
   toSend.length ? toSend : null;
+
   res.send(toSend);
 });
 app.get("/:value", (req, res) => {
@@ -28,7 +29,7 @@ app.get("/:value", (req, res) => {
           _.add(_.toNumber(filterd.length), _.toNumber(req.query.offset))
         );
 
-  res.send(toSend);
+  res.send(toSend.length ? toSend : null);
 });
 
 app.listen(4000, (err) => {
